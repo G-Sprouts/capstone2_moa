@@ -1,0 +1,5 @@
+,model,OVR_wrap,StandardScaler,Pipeline,mean_log_loss: 5-fold,mean_train_&_predict_time: (sec),model_predict_time,features
+0,SGDClassifier,True,True,True,0.016813928357025127,11.690075635910034,0.92,"all original, minus 42 ""gene expression"" columns"
+1,Linear Regression,True,True,True,0.030575128977418726,578.7450776100159,0.92,"all original, minus 42 ""gene expression"" columns"
+2,XGBoostClassifier,True,True,True,0.02122436234413888,763.45032787323,10.13,"all original, minus 42 ""gene expression"" columns"
+3,RandomForestClassifier,True,True,True,0.020213135162446088,576.2768850803375,12.41,"all original, minus 42 ""gene expression"" columns"
